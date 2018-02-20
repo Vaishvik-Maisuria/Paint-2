@@ -1,0 +1,77 @@
+# Please discuss your architectural decisions below.
+
+High Level Architecture:
+
+	MVC
+	To keep the code simple, a partial MVC was implemented.
+	
+	Model
+	The Model captures enough information to re-draw the sketch of
+	the user.
+	
+	View+Controller
+	There is a View class as well as a few, what we call, view components.
+	The View class capturing the JFrame as well
+	as containing all of its components.
+	View components are meant to be contained in the main View.
+	Examples of view components are PaintPanel and ShapeChooserPanel.
+	
+	The View class, and view components all implements their own controller.
+	For example, the PaintPanel listens to its own MouseEvents.
+	This is instead of separating out the Controller from the View. This choice
+	was made to simplify the code, yet still keep it modular and clear.
+	
+	Each view component can see the containing View as well as the Model
+	as appropriate. This means that each view component can speak to the
+	other view components. An example of this is when the ShapeChooserPanel
+	buttons are clicked, resulting in a mode change in the PaintPanel.
+	
+---------------------------------------------------------------------
+TODO!!! Add in more architecture and discussion. For example, 
+do you do something interesting to fix the association between the 
+ShapeChooser and the PaintPanel? How about the PaintModel, something
+is clearly wrong with it. Can you come up with a better architecture?
+---------------------------------------------------------------------
+
+DESIGN PATTERNS USED
+	TODO!!! If you introduce a Design Pattern to solve a problem, 
+	discuss it below. Only add design patterns if they simplify and improve
+	the code. I see at least two that would greatly improve code. 
+		
+
+	Command: The command pattern was used to separate the drawing from the shapes.
+			 This way, the shapes do not know how to draw themselves and they rely on other
+			 classes to do so. This clears up any confusion since different classes perform different
+			 operations.
+	Strategy: Used this design pattern to create instances of shape. Created abstract class  ShapeManipulatorStrategy as well 
+			  as subclasses/implementators for each type of Shape. Called these the
+			  [ShapeName]ipulatorStrategy
+
+			  The concrete [ShapeName]ipulatorStrategy is responsible for 
+
+			  1. Creating instances of Shape and putting them on top of 
+   		 	  the PaintModel command stack.
+
+			  2. Understanding how mouse events modify the shape at the top of the 
+   			  PaintModel command stack.
+
+			  3. Calling the PaintPanel repaint at appropriate times.
+
+			  Forwarded paintpanels mouse events to Shapemanipulator stratefy which took them as abstract methods which each
+			  [ShapeName]ipulatorStrategy  implemented.
+	Singleton:
+	Composite: Used this design pattern to fix bug 4 (architecture behind model is poor).
+			   I created an interface called ShapeComponent which has a paint method within it.
+			   Also, I created separate classes for each shape and made them implement from 
+			   ShapeComponent. This allows us to create 1 array within PaintModel which stores all the
+			   shapes created. By implementing from ShapeComponent, the painting is done within each
+			   class which allows us to easily implement the color and thickness selectors. Also, 
+			   this helped with the squiggle bug (which was bug 5).
+	Factory: The command pattern was use to control how the shape to be drawn was selected it created the shape-manipulator-strategy 
+	when it ran and spit it out so that it could be used in the paintpanel to send the mouse coordintaes to the paint panel it was used to replace the bad 
+	design of the mode code. Where a string was being updated to choose the shape to draw.  
+	Builder:
+	Observer/Observable:
+	... (any others you find useful) ...
+
+OTHER ARCHITECTURE DISCUSSIONS

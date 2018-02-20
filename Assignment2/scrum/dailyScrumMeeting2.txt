@@ -1,0 +1,118 @@
+# Fill in, commit and push each day.
+# Group Member: Vaishvik (maisrui9)
+
+Oct 23, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+	
+Oct 24, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 25, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 26, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 27, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Had a sprint planning meeting, divided up user stories, planned sprint 1. Cleared up confusions.
+	Obstacles : Midterm CSC207 
+	
+Oct 28, 2017
+	Yesterday : Had a sprint planning meeting, divided up user stories, planned sprint 1. Cleared up confusions.
+	Today     : Working on understanding the paint and how to build shapes 
+	Obstacles : Finding a approuch on the assignment and to divide the work equally
+
+Oct 29, 2017
+	Yesterday : Understood the code
+	Today     : Made the rectangle class and tried to understand how to connect all the class
+	Obstacles : could not understand and make the code to build a rectangle 
+
+Oct 30, 2017
+	Yesterday : finished coding the rectangle and pain panel 
+	Today     : trying to fix rectangle not being made from right to left and bottom to top 
+	Obstacles : need to reassign the starting point 
+
+Oct 31, 2017
+	Yesterday : merge completed and the rectangle with the feed back is now being made
+	Today     : create the Fill style selector 
+	Obstacles : linking up the view and making everything look nice 
+
+Nov 1, 2017
+	Yesterday : created the Fill style selector 
+	Today     : working on Bug 1 adding the Icons 
+	Obstacles : had problem with the mode selection mechanism and where to put the pictures and link them 
+	
+Nov 2, 2017
+	Yesterday : finished adding icons and merged 
+	Today     : create the Mouse X-Y coordinates indicator user story 
+	Obstacles : Finding which mouse action listener to use and make it work on drag
+	
+Nov 3, 2017
+	Yesterday : completed working on the Fill style selector 
+	Today     : creating the eraser 
+	Obstacles : realized my branching is very bad and the mouse listener was hard to understand
+
+Nov 4, 2017
+	Yesterday : completed working on Eraser and merged 
+	Today     : Draw Triangle and Feed back for Triangle 
+	Obstacles : can't make a normal triangle and even paint of windows can't do it, so wasted a lot of time
+
+Nov 5, 2017
+	Yesterday : completed everything related to triangle 
+	Today     : Work on small code errors and documentations 
+	Obstacles : making sure everyone finishes their work
+
+Nov 6, 2017
+	Yesterday : Finished submitting the assignment 2 part 1 
+	Today     : Start reading what we have to do we Assignment 2 part 2 
+	Obstacles : Thinking about changing the code to implement the Factory Design Pattern
+	
+Nov 7, 2017
+	Yesterday : Done planning and claimed a user story 
+	Today     : Studying Factory Design Pattern
+	Obstacles : trying to understand the examples of food given in class
+			
+Nov 8, 2017
+	Yesterday : Studied Factory Design pattern 
+	Today     : Made the classes 
+	Obstacles :  none
+
+Nov 9, 2017
+	Yesterday : coded the clases  
+	Today     : trying to apply Factory 
+	Obstacles : do to bad merges to master was acting very weird 
+
+Nov 10, 2017
+	Yesterday : trying to use factory to make the shapes 
+	Today     : went to office and completely understood the design pattern
+	Obstacles : i actully wasted a lot of time because i did not know what to return from the factory  
+				
+Nov 11, 2017
+	Yesterday : coded the Strategies 
+	Today     : trying to use factory in the code to set everything up  
+	Obstacles : i dont know where the factory sends the startagies 	
+
+Nov 12, 2017
+	Yesterday : Coded everything but the circle was not properly working
+	Today     :  founded out that the strategies are all work to gather and one can't work without the other and then finished factory design 
+	Obstacles :  merging the files 
+
+Nov 13, 2017
+	Yesterday : 	everything is working now 
+	Today     : Finished making the equilaterial triangle and merging, finished line, starting to make the polygon
+	Obstacles : merging the files and and fixing all errors, branching looks ugly now. 
+Nov 14, 2017
+	Yesterday : 	finished line and equilaterial triangle and started thing of ideas to start next 
+	Today     : Finished polygon and working on curved line, finished text 
+	Obstacles : Forgot Laptop at home- Working in the computer lab  
+								
+	

@@ -1,0 +1,122 @@
+# Fill in, commit and push each day.
+# Group Member: Aashdeep Brar : braraash
+
+Oct 23, 2017
+	Yesterday : Studying for midterm
+	Today     : Studying for midterm
+	Obstacles : Studying for midterm
+
+Oct 24, 2017
+	Yesterday : Studying for midterm
+	Today     : Studying for midterm
+	Obstacles : Studying for midterm
+
+Oct 25, 2017
+	Yesterday : Studying for midterm
+	Today     : Studying for midterm
+	Obstacles : Studying for midterm
+
+Oct 26, 2017
+	Yesterday : Studying for midterm
+	Today     : Studying for midterm
+	Obstacles : Studying for midterm
+
+Oct 27, 2017
+	Yesterday : Studying for midterm
+	Today     : Distributing the work and beginning Polyline and Squiggle
+	Obstacles : Dividing the work equally 
+
+Oct 28, 2017
+	Yesterday : Distributing work
+	Today     : Started to fix squiggle
+	Obstacles : To fix squiggle, we first need to change the model. Will fix model tomorrow
+
+Oct 29, 2017
+	Yesterday : Started fixing squiggle
+	Today     : Added a little bit to Polyline. Began implementing new model 
+	Obstacles : Redesigning the code to make it more readable 
+
+Oct 30, 2017
+	Yesterday : Added to polyline and began implementing model
+	Today     : Finished bug 4 and merged into master. Began fixing squiggle with the
+				new model.
+	Obstacles : Merge conflicts 
+
+Oct 31, 2017
+	Yesterday : Finished bug 4, started working on squiggle
+	Today     : Merged squiggle and finished polyline. Will merge that tomorrow
+	Obstacles :	Allowing the user to create a new polyline  
+
+Nov 1, 2017
+	Yesterday : Finished user story 10 and merged squiggle
+	Today     : Finished and merged user story 10 and 12
+	Obstacles : Fixing a feedback bug 
+	
+Nov 2, 2017
+	Yesterday : Finished a new user story along with merging squiggle
+	Today     : Started colour selector and helped members with their bugs 
+	Obstacles : Creating a new GUI for colour selector
+	
+Nov 3, 2017
+	Yesterday : Started colour selector along with helping members
+	Today     : Finished the colour selector user story
+	Obstacles : Connecting the colour view and model together
+
+Nov 4, 2017
+	Yesterday : Finished the colour selector user story
+	Today     : Finished various bugs found in the code. The main bug I worked on was
+				fixing a bug with the thickness slider and polyline
+	Obstacles : Finding the origin of all the bugs
+
+Nov 5, 2017
+	Yesterday : Fixed bugs found throughout the program
+	Today     : Finalizing the project and writing comments and javadoc throughout my code.
+	Obstacles : Figuring out which architectures would work the best 
+	
+Nov 6, 2017
+	Yesterday : Finalized part 1 
+	Today     : Nothing
+	Obstacles : Nothing
+	
+Nov 7, 2017
+	Yesterday : Nothing 
+	Today     : Studying design patterns and assigning roles
+	Obstacles : Understanding the advantages of different patterns
+			
+Nov 8, 2017
+	Yesterday : Looking over slides and assigned roles 
+	Today     : Nothing 
+	Obstacles : Nothing
+
+Nov 9, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles : Nothing
+
+Nov 10, 2017
+	Yesterday : Nothing
+	Today     : Began making polyline more efficient (previously implemented in part 1)
+	Obstacles : Fixing polyline and thickness issues 
+				
+Nov 11, 2017
+	Yesterday : Began fixing polyline
+	Today     : Finished polyline (made it closely resemble the Windows Paint program). Began implementing
+				Bug 2.1 
+	Obstacles : Creating a new polyline when a user double clicks in one area or clicks back at the original
+				point
+
+Nov 12, 2017
+	Yesterday : Finished polyline and began implementing bug 2.1
+	Today     : Finished bug 2.1  
+	Obstacles : None
+
+Nov 13, 2017
+	Yesterday : Finished bug 2.1
+	Today     : Fixed all the bugs that were appearing and re-implemented the polyline to have a more
+				design friendly implementation. Also started working on new user stories
+	Obstacles : Redoing the polyline implementation
+	
+Nov 14, 2017
+	Yesterday : Fixed bugs and re-implemented polyline
+	Today     : Adding as many new features as I can
+	Obstacles : None

@@ -1,0 +1,117 @@
+# Fill in, commit and push each day.
+# Group Member: Hamza
+
+Oct 23, 2017
+	Yesterday : Nothing
+	Today     :
+	Obstacles :
+
+Oct 24, 2017
+	Yesterday : Nothing
+	Today     :
+	Obstacles :
+
+Oct 25, 2017
+	Yesterday : Nothing
+	Today     :
+	Obstacles :
+
+Oct 26, 2017
+	Yesterday : Nothing
+	Today     :
+	Obstacles :
+
+Oct 27, 2017
+	Yesterday : Nothing
+	Today     :
+	Obstacles :
+
+Oct 28, 2017
+	Yesterday : Had a sprint planning meeting, divided up user stories, planned sprint 1. Cleared up confusions.
+	Today     : start working on User story 1 and 2. Add estimates and priority.
+	Obstacles : The cicle wasnt going into the frame on the top and left sides( reason was left most side had negative x-vals so i had to make changes to code to incorporate this)
+
+Oct 29, 2017
+	Yesterday : Completed user stories 1 and two, but i didnt push to master as we wanted to fix the model first.
+	Today     : my work for sprint completed wait for others to finish.
+	Obstacles :
+
+Oct 30, 2017
+	Yesterday : Nothing
+	Today     : Meet up with group, fix model, merge user stories 1 and 2 to master and clean up code. completed user story 11 with aashdeep.
+	Obstacles : how to fix i value.
+
+Oct 31, 2017
+	Yesterday : learned about new architecture, merged user story 1, made minor changes to user story 2 to play nice with new architecture.
+	Today     : merge user story 2 with master.
+	Obstacles :
+
+Nov 1, 2017
+	Yesterday : merged user story 2 with master.
+	Today     : Nothing.
+	Obstacles :
+	
+Nov 2, 2017
+	Yesterday : Nothing.
+	Today     : Helped vash complete user story 3 and 4, improved his design and fixed all bugs, complete user story 7
+	Obstacles :
+	
+Nov 3, 2017
+	Yesterday : helped vash complete user stories 3 and 4. worked on user story 7
+	Today     : help micheal fix square, work on user story 7
+	Obstacles : how to stop already drawn shapes from changing to new stroke once stroke is changed and a new shape is drawn.
+
+Nov 4, 2017
+	Yesterday : worked on user story 7
+	Today     : complete user story 7,11 and bugs 7,8 
+	Obstacles : How to keep a variable constant.
+
+Nov 5, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 6, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 7, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 8, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 9, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 10, 2017
+	Yesterday : Nothing
+	Today     : Nothing
+	Obstacles :
+
+Nov 11, 2017
+	Yesterday : Nothing
+	Today     : Work on BUG 2.2
+	Obstacles : How to wrap stroke and color command changes.How to forward paintpanels mouse listeners to shpaestrategy.
+
+Nov 12, 2017
+	Yesterday : Completed Bug 2.1 , 2.2, 2.3 and 2.4 for learning. 
+	Today     : Switched ownership of bug2.4 with micheal. Merge bug2.4 to master add extra features. complete bug 11.
+	Obstacles : What does repaint do how does it work.
+
+Nov 13, 2017
+	Yesterday : Completed Bug 2.4 and bug11. 
+	Today     : comleted user story 14, organised classes, cleaned up unused code from master. 
+	Obstacles :
+
+Nov 14, 2017
+	Yesterday : 
+	Today     : 
+	Obstacles :

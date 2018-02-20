@@ -1,0 +1,168 @@
+# Fill in, commit and push each day.
+# Group Member: Michael
+
+Oct 23, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 24, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 25, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 26, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Studying for CSC207 Midterm.
+	Obstacles : Studying for CSC207 Midterm.
+
+Oct 27, 2017
+	Yesterday : Studying for CSC207 Midterm.
+	Today     : Divide and prioritize user stories. Create branches for
+				user stories. 
+	Obstacles : Determining how to divide work and formulating time estimates.
+
+Oct 28, 2017
+	Yesterday : Divided and prioritized user stories. For the first sprint, 
+				I will be handling the Square and Square Feedback user stories.
+	Today     : Work on Square class.
+	Obstacles : Figuring out how to start the square class.
+
+Oct 29, 2017
+	Yesterday : Created square class with methods getting and setting start
+				and endpoints.
+	Today     : Start writing code to draw square to screen.
+	Obstacles :	Getting output to draw to screen, NullPointerExceptions seem
+				to be popping up when ArrayList of squares is called.
+
+Oct 30, 2017
+	Yesterday : Started 'draw square code' but was unable to implement it
+				fully. Will come back to this ASAP.
+	Today     :	Rework Square class code to implement the new ShapeComponent
+				interface (move some code from PaintPanel with slight
+				modifications).
+	Obstacles : Figuring out what changes to make to the code (particularly
+				where to use 'this' and where to use 'g2d' in paint method).
+
+Oct 31, 2017
+	Yesterday : Implemented ShapeComponent interface to create a paint
+				method within Square class.
+	Today     : Day off.
+	Obstacles :	N/A
+
+Nov 1, 2017
+	Yesterday : Took the day off.
+	Today     : Get square drawing working. Finish User Story 9 Square 
+				Feedback.
+	Obstacles : https://mcs.utm.utoronto.ca/~263/dan_laugh.jpg
+	
+Nov 2, 2017
+	Yesterday : Implemented Square and Square Feedback. However, this
+				implementation is buggy: the square can be dragged around
+				the screen while it is being drawn.
+	Today     : Fix the aforementioned bug in Square Feedback.
+	Obstacles :	Identifying the problem in the code causing the bug.
+	
+Nov 3, 2017
+	Yesterday : Attempted to fix the drawing of Square by restructuring code:
+				rather than having the Square class accept start and end as
+				parameters, changed to start and sideLength. Reworked methods 
+				to fit this new architecture. However, the bug still remains 
+				but only along the x-axis (the entire square can no longer be 
+				dragged upwards as before).
+	Today     : Continue working on Square drawing, update Square class to
+				fit with changes to model and 'isFilled' attribute.
+	Obstacles : Reworking code to fit with changes to model.
+
+Nov 4, 2017
+	Yesterday : Updated Square class to work with changes to model and 
+				'isFilled' attribute. Attempted to fix square drawing but
+				the bug still remains.
+	Today     : Due to another obligation I will not have much time to work
+				today. Start on Bug 2 (clearly mark which shape drawing mode the user 
+				is in).
+	Obstacles : Making progress with limited time.
+
+Nov 5, 2017
+	Yesterday : Started working on Bug 2, was able to get button to
+				turn green when pressed.
+	Today     : Finish my fixes for Bug 2 (when another shape is selected, turn
+				previous shape button's background back to grey) as well as
+				square drawing.
+	Obstacles : Redoing code in PaintPanel for SquareFeedback to account for
+				cases when square is being drawn starting from top *right*
+				corner.
+
+Nov 6, 2017
+	Yesterday : Fixed bugs in square drawing and completed the fix for Bug 2.
+				Handed in the assignment.
+	Today     : Read the A2P2 outline and marking scheme. Get familiar with the
+				required user stories and come up with a general plan to implement
+				them.
+	Obstacles : Redoing code in PaintPanel for SquareFeedback to account for
+				cases when square is being drawn starting from top *right*
+				corner.
+				
+Nov 7, 2017
+	Yesterday : Read the A2P2 outline and marking scheme. Decided on taking on
+				Bug 2.4, will implement an interface ShapeManipulatorStrategy
+				that will handle creation + movement of each shape.
+	Today     : Day off - Statistics midterm, writing class meeting, 207 lecture...
+				very hectic day. RIP Roy Halladay.
+	Obstacles : N/A
+				
+Nov 8, 2017
+	Yesterday : Day off.
+	Today     : Start implementing ShapeManipulatorStrategy: the interface and
+				implementations for each shape.
+	Obstacles : Unable to test strategies at this point because Command
+				Design Pattern has not been implemented in PaintPanel.
+Nov 9, 2017
+	Yesterday : Created ShapeManipulatorStrategy interface and completed
+				CircleManipulatorStrategy & RectangleManipulatorStrategy.
+	Today     : Rework architecture of ShapeManipulatorStrategy due to
+				change in design pattern usage. Now take in MouseEvents.
+	Obstacles : Refactoring existing codebase to be compatible with new design
+				choices.
+				
+Nov 10, 2017
+	Yesterday : Changed Strategies to respond to ActionEvents involving
+				the mouse. Modified circle, rectangle strategies appropriately.
+	Today     : Due to unexpected personal situation, will take today and
+				tomorrow off.
+	Obstacles : N/A
+				
+Nov 11, 2017
+	Yesterday : Day off.
+	Today     : Day off.
+	Obstacles : N/A
+				
+Nov 12, 2017
+	Yesterday : Day off.
+	Today     : Now switched over to Bug 2.2: improving architecture for 
+				handling shape modifiers. Create DrawingCommand classes that
+				will be used in ShapeManipulatorStrategies.
+	Obstacles : Familiarizing myself with parts of the codebase that I had not
+				been working on, in order to complete this new bug.
+				
+Nov 13, 2017
+	Yesterday : Attempted to implement DrawingCommand classes, but had errors
+				when drawing filled polygons.
+	Today     : Finish Bug 2.2: fix the error causing filled polygons to crash
+				the program.
+	Obstacles : Our polyline implementation is still undergoing changes: 
+				may have to change DrawingCommand/Manipulator code on the fly.
+				
+Nov 14, 2017
+	Yesterday : Implemented filled polygon drawing by passing isFilled variable
+				from the panel into the DrawingCommand using a getter function.
+	Today     : Add finishing touches to program: modify fill/outline button
+				to be a checkbox for easier use, add more information to slider
+				(User Stories 30, 31)
+	Obstacles : Using unfamiliar Java packages, time constraints due to
+				impending deadline.

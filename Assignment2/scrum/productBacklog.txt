@@ -1,0 +1,589 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+# For example, the color chooser user story involves: 
+# 1 Color chooser UI (which could be a USER STORY)
+# 2 Implementation of selected color into the drawing stream.
+
+
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1: alviham1
+NAME     : Draw Circle
+OWNER    : Hamza Alvi
+PRIORITY : high
+ESTIMATE : 1 day
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2 : alviham1
+NAME     : Draw Circle Feedback
+OWNER    : Hamza Alvi
+PRIORITY : High
+ESTIMATE : 1 day
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3: maisuri9
+NAME     : Draw Rectangle
+OWNER    : Vaishvik 
+PRIORITY : high 
+ESTIMATE : 3 day 
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to 
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 4: maisuri9
+NAME     : Draw Rectangle Feedback
+OWNER    : Vaishvik 
+PRIORITY : high 
+ESTIMATE : 1 days 
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5 : braraash
+NAME     : Color selector
+OWNER    : Aashdeep
+PRIORITY : Medium
+ESTIMATE : 1 day
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example: 
+           		selects color red
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  : I can change the colours of shapes
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6: maisuri9
+NAME     : Fill style selector
+OWNER    : Vaishvik
+PRIORITY : High
+ESTIMATE : 1 day
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example: 
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : I can draw a filled shape or a shape only with a outline 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7: alviham1
+NAME     : Line thickness selector
+OWNER    : Hamza Alvi
+PRIORITY : medium
+ESTIMATE : 1 day
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline 
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined 
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : I can change the thickness of outline for my shapes.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 8: gesualem
+NAME     : Draw Square
+OWNER    : Michael 
+PRIORITY : High
+ESTIMATE : 3 days
+AS A     : user
+I WANT   : To click on one corner of a square, drag, and release to 
+		   specify two corners of a square to be drawn in the current style.
+SO THAT  : I can add square to my canvas 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 9: gesualem
+NAME     : Draw Square Feedback
+OWNER    : Michael 
+PRIORITY : High
+ESTIMATE : 3 days
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the square in mid construction.
+SO THAT  : I can see the square I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 10 : braraash
+NAME     : PolyLine
+OWNER    : Aashdeep
+PRIORITY : Medium 
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : To click the canvas to make a series of line segments
+		   in the current style.
+SO THAT  : I can add polylines to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------  
+TYPE     : USER STORY 12 : braraash
+NAME     : Draw Polyline Feedback
+OWNER    : Aashdeep
+PRIORITY : low
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the polyline in mid construction.
+	       The feedback should display when dragging the mouse
+SO THAT  : I can see the line segment I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 13: maisuri9
+NAME     : Mouse X-Y coordinates indicator
+OWNER    : Vaishvik  
+PRIORITY : low
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : Constant show of where the mouse is 
+SO THAT  : you can see the coordinates and draw rectangle at specific points 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 14: alviham1
+NAME     : Eraser 
+OWNER    : Hamza 
+PRIORITY : medium
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : to be able to erase my drawings.
+SO THAT  : I can erase parts or all of the drawings on the canvas.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 15: maisuri9
+NAME     : Draw Triangle
+OWNER    : Vaishvik 
+PRIORITY : high
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To click on one corner of a triangle, drag, and release
+SO THAT  : I can add triangle to my canvas 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 16: maisuri9
+NAME     : Draw Triangle Feedback
+OWNER    : Vaishvik 
+PRIORITY : high
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : Similarly to Draw Triangle Feedback, display the traingle in mid construction.
+SO THAT  : I can see the Triangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 17: braraash
+NAME     : Create an efficient Color implementation
+OWNER    : Aashdeep
+PRIORITY : low
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : The color chooser to be implemented better
+SO THAT  : it is more clear
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 18: braraash
+NAME     : Edit GUI
+OWNER    : Aashdeep
+PRIORITY : low
+ESTIMATE : 20 minutes
+AS A     : user
+I WANT   : The GUI to be more user-friendly
+SO THAT  : users can have as much drawing space as possible
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1: maisuri9
+NAME     : Icons instead of text for drawing mode selection
+OWNER    : Vaishvik 
+PRIORITY : Medium
+ESTIMATE : 1 day 
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2: gesualem
+NAME     : Drawing selection mode not indicated
+OWNER    : Michael
+PRIORITY : low
+ESTIMATE : 1 day
+ISSUE    : Currently ,you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is JButton correct, is there a way
+           to highlight the currently selected mode?.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 4 : braraash
+NAME     : Architecture behind Model is poor
+OWNER    : Aashdeep
+PRIORITY : High
+ESTIMATE : 1 day
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 5 : braraash
+NAME     : Squiggle is broken
+OWNER    : Aashdeep
+PRIORITY : High
+ESTIMATE : 2 hours
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 6: alviham1
+NAME     : Circle drawing is broken
+OWNER    : Hamza Alvi
+PRIORITY : high
+ESTIMATE : 1 day
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 7: alviham1
+NAME     : Squiggle becomes rough when used too much
+OWNER    : Hamza Alvi
+PRIORITY : Low
+ESTIMATE : 1 hour 
+ISSUE    : When drawing with squiggle for a while there comes a point where
+		   it becomes very laggy and rough, we want to be able to have a smooth
+		   squiggle drawing structure not matter how much we use it.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : Bug 8: alviham1
+NAME     : Create an efficient drawing mechanism.
+OWNER    : Hamza Alvi
+PRIORITY : low
+ESTIMATE : 2 hours
+ISSUE    : Currently there is repetition of code. Make code consice and 
+		   instead of repeating drawing code for each shape in mouse 
+		   released use the code from mouse dragged.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : Bug 9: braraash
+NAME     : Thickness and polyline issue
+OWNER    : Aashdeep
+PRIORITY : Medium
+ESTIMATE : 2 hours
+ISSUE    : The thickness slider does not work for polyline when
+		   decreasing the slider. It only works when increasing the
+		   thickness.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : Bug 10: alviham1
+NAME     : Better OO design
+OWNER    : Hamza Alvi
+PRIORITY : Low
+ESTIMATE : 40mins 
+ISSUE    : There are common methods and instance variables in all the shape classes.
+		   we would like to reduce these repetitions and have better OO design.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2.1 : braraash
+NAME     : Implement Poly Line
+OWNER    : Aashdeep 
+PRIORITY : High
+ESTIMATE : 1 day
+ISSUE    : A version of polyline was implemented in part 1 but it did not function
+		   the way that the Windows Paint program functioned. Main problem is exiting
+		   out of the polyline to create a new one
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.1 : braraash
+NAME     : Architecture for drawing shapes can be improved
+OWNER    : Aashdeep Brar
+PRIORITY : High
+ESTIMATE : 2 days
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to draw shapes as follows:
+
+The PaintModel should use the command design pattern. 
+That is, each shape knows how to draw itself, so there is a single list of 
+DrawingCommands maintained by the PaintModel and used by the PaintPanel.
+paintComponent simply asks the PaintModel to ask command to execute(g2d).
+The simplest way to make this happen is to make each shape implement the 
+DrawingCommand interface which requires execute(g2d) to be implemented.
+Well sort of.
+
+NOTE: The PaintModel does know how to logically draw itself, so does
+know about strokes and pen colors etc. Depending on how much you want
+to split off the logical from the GUI, it may not have to know how to 
+draw on the screen. This is a subtle difference. For example, the
+following logically describes a scene, without actually knowing
+how to draw it on the screen (using j2d)...
+
+Color = green
+Fill = off
+Border = on
+BorderWidth = 10
+Circle radius 10 at 12,15
+Color = red
+Fill = on
+FillColor = black
+Border = on
+BorderWidth = 7
+Square width 20 at 100,200
+
+If you want to build a more 'logical' PaintModel, you can consider ...
+
+1) Create a mirror hierarchy for Shape, this mirror hirerachy 
+has things like DrawableCircle which has a Circle. The DrawableCircle
+knows how to draw the instance of Circle it holds. Each Shape will
+still need information about its color, and stroke, one way or another.
+
+OR
+
+2) Lookup and apply the Visitor design pattern to the more logical
+PaintModel.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.4 : alviham1
+NAME     : Architecture behind creating shape instances is poor
+OWNER    : Hamza Alvi
+PRIORITY : High
+ESTIMATE : 3 days
+ISSUE    : A better architecture for creating shape instances so that it is 
+more flexible, and easier to work with can be created using the Strategy Design 
+pattern as follows:
+
+Create class/abstract class/interface  ShapeManipulatorStrategy as well 
+as subclasses/implementators for each type of Shape. Call these the
+concrete ShapeNamipulatorStrategies
+
+The concrete ShapeManipulatorStrategies are responsible for 
+
+1. Creating instances of Shape and putting them on top of 
+   the PaintModel command stack.
+
+2. Understanding how mouse events modify the shape at the top of the 
+   PaintModel command stack.
+
+3. Calling the PaintPanel repaint at appropriate times.
+
+This strategy can be put in place either by having PaintPanel's mouse 
+events forwarded through PaintPanel into the current strategy, or by 
+simply switching the PaintPanel's listeners as appropriate.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.3 : maisuri9
+NAME     : Architecture behind choosing drawing mode is poor
+OWNER    : Vasihvik Maisuria 
+PRIORITY : high
+ESTIMATE : 3 days 
+ISSUE    : A better architecture behind selecting a drawing mode can be created 
+by implementing the Factory Design Pattern as follows:
+
+The factory design pattern should be used by the paint buttons. 
+The factory is responsible for creating different ShapeManipulatorStrategy 
+instances (see BUG 2.4). That is, when a button is pressed, the appropriate 
+ShapeManipulatorStrategy is created and installed in the PaintPanel. 
+Note that you can associate text with a button, even if you 
+display an ImageIcon. The string attached to the button causes the right choice 
+of object creation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 19: maisuri9
+NAME     : Draw Equilaterial Triangle and Feedback
+OWNER    : Vaishvik 
+PRIORITY : high
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To click on one corner of a triangle, drag down, and release and display the traingle in mid construction
+SO THAT  : I can add triangle to my canvas 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.2 : GESUALEM
+NAME     : Architecture for handling shape modifiers can be improved 
+OWNER    : Michael Gesuale
+PRIORITY : High
+ESTIMATE : 1 day
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to handle changes to the graphics contex such as changing drawing 
+color, stroke width etc. You can accomplished this by wrapping the changes
+to the graphics context in a DrawingCommand. This way these changes can be
+added to the Bug 2.1 DrawingCommand list. That is, these new types of 
+DrawingCommands appear on PaintPanel's list right along side 
+the Shape type DrawingCommands.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 21: maisuri9
+NAME     : Draw line
+OWNER    : Vaishvik 
+PRIORITY : low
+ESTIMATE : 1 hour 
+AS A     : user
+I WANT   : line in drawn from first mouse click to the second 
+SO THAT  : user can draw a straight line from point a to point b 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 22: braraash
+NAME     : Undo Shape
+OWNER    : Aashdeep 
+PRIORITY : low
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To undo any shape I made
+SO THAT  : I can erase any mistakes 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 24: braraash
+NAME     : Clear canvas
+OWNER    : Aashdeep 
+PRIORITY : low
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To clear the canvas
+SO THAT  : I can start drawing on a blank canvas. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 25: braraash
+NAME     : Redo Shape
+OWNER    : Aashdeep 
+PRIORITY : low
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To redo any shape I made
+SO THAT  : I can go back on any undos  
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 26: braraash
+NAME     : Remove text from buttons 
+OWNER    : Aashdeep  
+PRIORITY : low
+ESTIMATE : 10 min  
+AS A     : user
+I WANT   : No text in the shape buttons
+SO THAT  : The buttons looks better 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 23: maisuri9
+NAME     : Textbox 
+OWNER    : Vaishvik 
+PRIORITY : mid
+ESTIMATE : 3 hours  
+AS A     : user
+I WANT   : When i click on the screen it creates a textbook
+SO THAT  : So user can add text to paint 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 30: gesualem
+NAME     : Change Fill/Outline button to Checkbox
+OWNER    : Michael 
+PRIORITY : low
+ESTIMATE : 30 minutes
+AS A     : user
+I WANT   : To toggle between Fill and Outline using a checkbox that more 
+		   clearly indicates which mode we are in.
+SO THAT  : I can clearly see which mode I am in.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 29: braraash
+NAME     : Different fonts 
+OWNER    : Aashdeep 
+PRIORITY : Low
+ESTIMATE : 30 mintues  
+AS A     : user
+I WANT   : To be able to change the fonts when typing
+SO THAT  : I can customize my text  
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 31: gesualem
+NAME     : Add Detail to Slider 
+OWNER    : Michael 
+PRIORITY : Low
+ESTIMATE : 1 hour  
+AS A     : user
+I WANT   : To be able to see a scale of how far I have dragged the slider
+		   (number values, ticks).
+SO THAT  : I can keep track of the thickness of my shapes and lines (i.e.
+		   I know I have dragged the slider to '41' on the bottom label to
+		   make a shape of 'x' thickness, I can now create new shapes of 'x'
+		   thickness with great accuracy, eliminating the guesswork involved. 
+-------------------------------------------------------------------------- 
+--------------------------------------------------------------------------
+TYPE     : USER STORY 20: maisuri9
+NAME     : Draw Equilaterial polygon and Feedback
+OWNER    : Vaishvik 
+PRIORITY : mid
+ESTIMATE : 1 day 
+AS A     : user
+I WANT   : To click on one corner of a polygon, drag down, and release and display the polygon in mid construction and you can decide the sides
+SO THAT  : I can add polygon to my canvas (of sides 3 - 12) 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 32: alviham1
+NAME     : Add Better Gui structure
+OWNER    : Hamza
+PRIORITY : Low
+ESTIMATE : 1 hour  
+AS A     : user
+I WANT   : To see a more organised better looking painting canvas.
+SO THAT  : I can keep track of the thickness of my shapes and lines (i.e.
+		   I know I have dragged the slider to '41' on the bottom label to
+		   make a shape of 'x' thickness, I can now create new shapes of 'x'
+		   thickness with great accuracy, eliminating the guesswork involved. 
+-------------------------------------------------------------------------- 
+--------------------------------------------------------------------------
+TYPE     : USER STORY 32: alviham1
+NAME     : Add Key mneumonics
+OWNER    : Hamza
+PRIORITY : Low
+ESTIMATE : 1 hour  
+AS A     : user
+I WANT   : To be able to easily undo redo.
+SO THAT  : i dont have to go to menu each time.
+-------------------------------------------------------------------------- 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 28: maisuri9
+NAME     : Color identifier 
+OWNER    : Vaishvik 
+PRIORITY : low
+ESTIMATE : 30 mintues  
+AS A     : user
+I WANT   : to click on the screen and identify which color you clicked on
+SO THAT  : user custom select a previous color used  
+Deleted  : no time to complete it 
